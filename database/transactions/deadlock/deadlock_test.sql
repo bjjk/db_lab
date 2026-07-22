@@ -1,0 +1,14 @@
+USE lab_db;
+
+START TRANSACTION;
+UPDATE orders
+SET total=200
+WHERE id=1;
+
+START TRANSACTION;
+UPDATE payments 
+SET status = 'LOCK_TEST'
+WHERE id=1;
+
+COMMIT;
+
