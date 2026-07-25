@@ -28,8 +28,9 @@ The project was created to develop practical DBA skills, including database conf
 	-users
 		-README.md
 		-users_privileges.sql
--logs
 -monitoring
+	-README.md
+	-health_check.sh
 	-mysql_status.sql
 	-performance_check.sql
 -README.md
@@ -59,7 +60,7 @@ The project was created to develop practical DBA skills, including database conf
 -Server status monitoring
 -Basic performance check
 -MySQL status queries
-
+-MySQL health check script (Bash)
 
 ##Technologies
 -MySQL
