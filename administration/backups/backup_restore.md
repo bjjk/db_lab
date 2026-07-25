@@ -1,24 +1,24 @@
 #Backup and Restore
-This document describes how a backup of the 'lab_ab' database was created and restored isung MySQL command tools.
+This document describes how a backup of the 'lab_ab' database was created and restored usung MySQL command-line tools.
 
 ##Creating a backup
 A full database backup was created using 'mysqldump'
 ```
-mysqldump -u <usermane> -p > administration/backups/lab_db_backups.sql 
+mysqldump -u <username> -p > administration/backups/lab_db_backups.sql 
 ```
-Where <username> is a MySQL user with permission to back up the databe.
+Where <username> is a MySQL user with permission to back up the database.
 
 ##Description
 -'mysqldump' - MySQL backup utility.
 -'-u <username>' - Connect as the MySQL user.
--'-p' - Promt for the user's password.
+-'-p' - Prompt for the user's password.
 -'>' - Redirect the output to a SQL file.
 
 
 ##Restoring a backup
 To restore the database:
 ```
-mysql -u <username> -p < administration.backups/lab_db_backups.sql
+mysql -u <username> -p < administration/backups/lab_db_backups.sql
 ```
 
 ##Description 
