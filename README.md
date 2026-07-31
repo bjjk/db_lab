@@ -1,8 +1,8 @@
 #MySQL Administration on Linux.
-This repository documents my hands-on practice with MySQL database administrationin a Linux environment.
-The project was created to develop practical DBA skills, including database configuration, administration, monitoring ans SQL fundamentals.
+This repository documents my hands-on practice with MySQL database administrationin in a Linux environment.
+The project was created to develop practical DBA skills, including database configuration, administration, monitoring and SQL fundamentals.
 
-##Project Sructure
+##Project Structure
 ```
 -administration
 	-backup_restore.md
@@ -39,9 +39,9 @@ The project was created to develop practical DBA skills, including database conf
 ##Topics Covered
 
 ###Configuration
--MySQL sercer configuration ('my.cnf')
+-MySQL server configuration ('my.cnf')
 -Connection settings
--InnoBD configuration
+-InnoDB configuration
 -Binary logging
 -Slow query log
 
