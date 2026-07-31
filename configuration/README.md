@@ -15,13 +15,14 @@ The configuration includes settings for:
 
 ##Network
 -'bind-address' - specifies which network interfaces MySQL listens on.
--'port' - defines the TPC port used by the MySQL server.
+-'port' - defines the TCP port used by the MySQL server.
+MySQL is configured to accept local connections only for securityreasons.
 
 ##Connections
  -'max_connections' - limits the maximum number of client connections.
 
 ##InnoDB
--'innodb_buffer_pool_size' -defines the amount of memory user for caching InnoDB data and indexes.
+-'innodb_buffer_pool_size' -defines the amount of memory used for caching InnoDB data and indexes.
 -'innodb_log_file_size' - sets the size of the InnoDB redo log files.
 -'innodb_flush_log_at_trx_commit' - controls how transaction logs are written to disk.
 
@@ -33,7 +34,7 @@ The configuration includes settings for:
 ##Logging
 -'slow_query_log' - enables logging of slow SQL queries.
 -'long_query_time' - defines the execution time threshold for slow queries.
--log_error' - specifies the location of the MySQL error log.
+-log_error - specifies the location of the MySQL error log.
 
 #Character set
 -'character-set-server' - sets the default server character set.
