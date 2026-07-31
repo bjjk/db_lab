@@ -8,6 +8,6 @@ WHERE id=1;
 COMMIT;
 
 
-ROLLBACK;
+
 
 
