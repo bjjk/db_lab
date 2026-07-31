@@ -1,4 +1,4 @@
-CREATE USER IFNOT EXISTS 'app_user'@'localhost'
+CREATE USER IF NOT EXISTS 'app_user'@'localhost'
 IDENTIFIED BY 'apppassword';
 
 GRANT SELECT, INSERT, UPDATE ON lab_db.* TO 'app_user'@'localhost';
